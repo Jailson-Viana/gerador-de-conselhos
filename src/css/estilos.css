@@ -1,0 +1,62 @@
+html {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 1440px;
+    background-color: var(--cor-de-fundo);
+}
+
+.container .card {
+    background-color: var(--advice-card-color);
+    width: 345px;
+    border-radius: 10px;
+    margin: 20px;
+
+
+}
+
+.container .infor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container .infor .titulo {
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+
+}
+
+.container .infor p {
+    text-align: center;
+    font-size: 23px;
+    color: var(--texto-color);
+    padding: 20px;
+}
+
+
+.container .infor .botao {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--advice-dice-color);
+    transform: translateY(50%);
+}
+
+.container .infor .botao:hover {
+    color: var(--advice-dice-color);
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+
+}
